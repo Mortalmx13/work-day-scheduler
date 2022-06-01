@@ -14,6 +14,7 @@ This assignmant required the user to work with real live time that will make aff
 ![Work Day Scheduler](/Work-Day-Scheduler.png)
 
 ## Resources
-- [Live Site](https://mortalmx13.github.io/seo-refactor/)
+- [Live Site](https://mortalmx13.github.io/work-day-scheduler/)
 
-- [Respository](https://github.com/Mortalmx13/seo-refactor)
+
+- [Respository](https://github.com/Mortalmx13/work-day-scheduler)
