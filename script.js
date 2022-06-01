@@ -30,14 +30,15 @@ $(".time-run").each(function (){
 
 //saves the message on that hours box
 saveBtn.addEventListener("click", function(){
+    console.log(this);
     var box = $(this).siblings(".time-run").val();
     var num = $(this).parent().attr("id");
 
     localStorage.setItem(box,num);
 })
 
-$("#9box .time-run").val(localStorage.getItem("9box"));
-$("#10box .time-run").val(localStorage.getItem("10box"));
+$("#9box .time-run").val(localStorage.getItem("#9box"));
+$("#10box .time-run").val(localStorage.getItem("#10box"));
 $("#11box .time-run").val(localStorage.getItem("11box"));
 $("#12box .time-run").val(localStorage.getItem("12box"));
 $("#13box .time-run").val(localStorage.getItem("13box"));//1pm
@@ -47,4 +48,4 @@ $("#16box .time-run").val(localStorage.getItem("16box"));//4pm
 $("#17box .time-run").val(localStorage.getItem("17box"));//5pm
 
    
-console.log(rightNowHour);
+
