@@ -30,21 +30,40 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <table class = "table">
-      <tr>
-        <td>9am</td>
+      
+    <section class="row">
+        <div class="col-1">9am</div>
         <td>
-          <textarea name="boxfor9am" id="box9" cols="30" rows="5"></textarea>
+          <textarea class="col-10 time-run" name="boxfor9am" id="9box" ></textarea>
         </td>
         <td>
-          <button>Save</button>
+          <button class="col-1 saveBtn" id="">Save</button>
           </td>
-      </tr>
-      
-    </table>
+    </section>
+    <section class="row">
+      <div class="col-1">10am</div>
+      <td>
+        <textarea class="col-10 time-run" name="boxfor10am" id="10box" ></textarea>
+      </td>
+      <td>
+        <button class="col-1 saveBtn" id="">Save</button>
+        </td>
+  </section>
+  <section class="row">
+    <div class="col-1">11am</div>
+    <td>
+      <textarea class="col-10 time-run" name="boxfor11am" id="11box" ></textarea>
+    </td>
+    <td>
+      <button class="col-1 saveBtn" id="">Save</button>
+      </td>
+</section>
+        
+        
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js" ></script>
   </body>
 </html>
